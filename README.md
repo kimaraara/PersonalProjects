@@ -15,7 +15,7 @@ down
 ***
 ___
 
-# 목록(순서, 순서 없는 경우)
+# 목록(순서 有, 순서 無 경우)
 ## 순법이 있는 목록(ol)
 1. Python
 2. Java
@@ -35,12 +35,27 @@ aaaaaaaaaaaaaa
      
 # 코드블럭
 ```java
+여기 안에 있는 건 자바 코드야
+```
+
+```java
 public class DemoApplication{
-public static void main (String[] args){
-System.out.println("Spring boot App Started")
-}
+     public static void main (String[] args){
+          System.out.println("Spring boot App Started")
+     }
 }
 ```
 
+
 # 링크 사용하기
+
+## 기본 링크
 [구글바로가기](http://google.com)
+
+## 아이디를 사용하여 보여지는 문자열 표시하기
+[구글바로가기][google]
+[google]: http://google.com "Google 사이트로 이동합니다."
+
+## 문서 내부 참조
+[문서의 처음으로 이동](#마크다운-간단-문법)
+
