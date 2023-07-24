@@ -12,10 +12,12 @@ Mark
 down
 ---
 
+
 # 수평선(빼기 3개는 수평선이 됨)
 ---
 ***
 ___
+
 
 # 목록(순서 有, 순서 無 경우)
 ## 순법이 있는 목록(ol)
@@ -29,11 +31,13 @@ ___
 * 음악
 + 체육
 
+
 # 들여쓰기 표현
 aaaaaaaaaaaaaa
 
      bbbbbbbbbbbbbb
      cccccccccccccc
+
      
 # 코드블럭
 ```java
@@ -63,5 +67,12 @@ public class DemoApplication{
 
 
 # 강조
-Hello *World*
+Hello *World*   
+_Hello_ World   
+Hello **World**   
+__Hello__ World   
+~~Hello~~ World
 
+
+# 이미지 표현 방법
+<img src>
