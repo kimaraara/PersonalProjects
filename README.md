@@ -55,7 +55,7 @@ public class DemoApplication{
 [구글바로가기](http://google.com)
 
 ## 아이디를 사용하여 보여지는 문자열 표시하기
-[구글바로가기][google]
+[구글바로가기][google]   
 [google]: http://google.com "Google 사이트로 이동합니다."
 
 ## 문서 내부 참조
